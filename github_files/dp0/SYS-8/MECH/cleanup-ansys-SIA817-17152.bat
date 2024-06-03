@@ -1,0 +1,28 @@
+@echo off
+set LOCALHOST=%COMPUTERNAME%
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 22072)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 27396)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 6584)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 30044)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 3460)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 28056)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 8244)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 5340)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 6764)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 29656)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 17256)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 10824)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 8380)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 15008)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 30324)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 10316)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 5632)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 8468)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 24640)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 29360)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 5184)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 29880)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 29744)
+if /i "%LOCALHOST%"=="SIA817" (taskkill /f /pid 17152)
+
+del /F cleanup-ansys-SIA817-17152.bat
